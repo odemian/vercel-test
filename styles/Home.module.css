@@ -80,6 +80,10 @@
   margin-top: 3rem;
 }
 
+.imageContainer {
+  max-width: 256px;
+}
+
 .card {
   margin: 1rem;
   flex-basis: 45%;

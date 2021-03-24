@@ -17,7 +17,8 @@ jobs:
           npm install
           npm run build:staging
 
-      - uses: ./
+      - name: Vercel Action
+      - uses: amondnet/vercel-action@v19
         id: vercel-action-dev
         with:
           vercel-token: ${{ secrets.VERCEL_TOKEN }}

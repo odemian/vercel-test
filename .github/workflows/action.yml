@@ -15,7 +15,7 @@ jobs:
       - name: build
         run: |
           npm install
-          npm run build:prod
+          npm run build:staging
 
       - uses: ./
         id: vercel-action-dev

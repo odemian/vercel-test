@@ -1,5 +1,0 @@
-{
-	"rewrites": [
-		{ "source": "/blog", "destination": "https://yamm.ghost.io" }
-	]
-}

@@ -5,9 +5,6 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "env": "node ./bin/environment",
-    "build:dev": "npm run env add dev && next build && npm run env remove",
-    "build:staging": "npm run env add staging && next build && npm run env remove",
     "start": "next start"
   },
   "dependencies": {
